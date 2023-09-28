@@ -1,0 +1,169 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+/* row3 */
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample3 {
+  justify-content: flex-end;
+  width: 80px;
+  background-color: blue;
+}
+
+.redExample3 {
+  justify-content: flex-start;
+  width: 80px;
+  background-color: red;
+}
+
+.emptyred {
+  display: flex;
+  flex: 0;
+  flex-direction: row;
+}
+
+/* row4 */
+
+.redExample4 {
+  width: 94%;
+  background-color: red;
+}
+
+/* row5 */
+
+.emptyred5 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.redExample5 {
+  width: 30px;
+  margin-top: 15px;
+  height: 25px;
+  background-color: red;
+}
+
+/* row6 */
+.wrapper1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-rectangle {
+  flex: 1;
+  background-color: blue;
+  width: 55px;
+  height: 60px;
+}
+
+/* row7 */
+
+.wrapper2 {
+  display: flex;
+  flex: 1;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+.emptyExample7 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.blueExample7 {
+  width: 80px;
+  background-color: red;
+}
+
+.bluer {
+  margin-top: 20px;
+  flex: 1;
+  background-color: green;
+  height: 20px;
+}
+
+/* row8 */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+
+.box1 {
+  width: 80px;
+  background-color: orange;
+}
+
+
+/* row9 */
+
+.container9 {
+  display: flex;
+  flex-grow: 1;
+  gap: 1rem;
+}
+.A1 {
+  width: 80%;
+  background-color: orange;
+}
